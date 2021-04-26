@@ -7,6 +7,8 @@ import Animated, {
 import {View, Button} from 'react-native';
 import React from 'react';
 
+import SteakSheet from './components/SteakSheet';
+
 export default function AnimatedStyleUpdateExample(props) {
   const randomWidth = useSharedValue(10);
 
@@ -34,11 +36,12 @@ export default function AnimatedStyleUpdateExample(props) {
         ]}
       />
       <Button
-        title="toggle"
+        title="poop"
         onPress={() => {
           randomWidth.value = Math.random() * 350;
         }}
       />
+      <SteakSheet/>
     </View>
   );
 }

@@ -11,12 +11,13 @@
     "web": "expo start --web || expo start --web --web-only"
   },
   "dependencies": {
+    "@gorhom/bottom-sheet": "^3",
     "expo-asset": "^8.2.0",
     "react": "16.13.1",
     "react-dom": "^16.13.1",
     "react-native": "0.63.4",
-    "react-native-gesture-handler": "^1.9.0",
-    "react-native-reanimated": "2.1.0",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-reanimated": "^2.1.0",
     "react-native-web": "^0.15.5"
   },
   "devDependencies": {
